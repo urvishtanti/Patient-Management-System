@@ -1,0 +1,86 @@
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: roboto-italic;
+    src: url(./fonts/Roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(./fonts/Roboto/Roboto-Light.ttf);
+}
+
+.what-we-do h2 {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.what-we-do {
+    /* margin: 2rem 0; */
+    background-color: #ced4da;
+
+    padding: 2rem;
+    margin: 0;
+    justify-content: center;
+}
+
+.side-heading {
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-4 {
+    width: 33%;
+    flex-shrink: 2;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+.image-row {
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.image-row h4,
+.image-row h2 {
+    text-align: center;
+}
+
+.image-row h2 {
+    margin-top: 2rem;
+}
+
+.image-container {
+    display: flex;
+    flex: 3;
+    flex-direction: row;
+}
+
+.intro-img {
+    padding: 2rem;
+    width: 10rem;
+}
+
+.col-3 {
+    flex-grow: 3;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width=500px) {
+    .image-row {
+        float: none;
+        display: inline;
+    }
+}

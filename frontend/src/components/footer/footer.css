@@ -1,0 +1,21 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 5px;
+    left: 0;
+    text-align: center;
+}
+
+.footer a:link {
+    color: dodgerblue
+}
+
+.footer a:visited {
+    color: indianred;
+}
+
+.footer a:hover {
+    color: purple;
+}

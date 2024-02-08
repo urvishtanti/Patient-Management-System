@@ -1,0 +1,30 @@
+.sidebar-menu{
+    margin-top: 20vh;
+ justify-content:space-around;
+align-items: center;
+text-align: center;
+display: grid;
+width:100% ;
+    }
+
+
+    .sidebar-links{
+        margin-bottom:10px;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.sidebar-links:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.sidebar-links.active {
+    background-color: dodgerblue;
+    color: white;
+}

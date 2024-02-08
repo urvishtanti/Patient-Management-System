@@ -1,0 +1,121 @@
+.dashboard-card-cards {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 1.8rem;
+    height: 250px;
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.dashboard-card-cards:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dashboard-card-columns {
+    padding: 0 10px 0 1.8rem;
+    flex: 1;
+}
+
+.dashboard-card-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.dashboard-card-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .dashboard-card-columns {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.cards-color-users {
+    background-color: #d1e9fc;
+}
+
+.cards-color-assessments {
+    background-color: #d0f2ff;
+}
+
+.cards-color-meeting-counselor {
+    background-color: #FFF7cd;
+}
+
+.cards-color-meeting-doctor {
+    background-color: #ffe7d9;
+}
+
+.show-data-cards {
+    font-size: 3rem;
+    font-weight: 400;
+
+    /* text-shadow: 0 0 3px dodgerblue, 0 0 5px #0000FF, 0 0 5px black; */
+
+    color: black;
+    text-shadow: 1px 1px 2px black, 0 0 35px blue, 0 0 18px darkblue;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.users-cards {
+    font-size: 3rem;
+}
+
+.horizontal-space {
+    width: 20px;
+}
+
+.regular-chart {
+    flex: 1;
+}
+
+.pie-chart {
+    /* width: 19%; */
+}
+
+.dashboard-card-row .tooltip {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.dashboard-card-row .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin-top: 0.2rem;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 2;
+}
+
+.dashboard-card-row .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.dashboard-card-row .tooltip .tooltiptext {
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    /* Use half of the width (120/2 = 60), to center the tooltip */
+}

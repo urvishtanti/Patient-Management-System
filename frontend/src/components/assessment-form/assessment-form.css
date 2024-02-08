@@ -1,0 +1,81 @@
+.aform-container {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1000px;
+    overflow-x: hidden;
+    /* background-color: gray;  */
+    max-width: 1072px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.radio-group {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 60%;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.radio-button {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.assessment-question {
+    text-align: justify;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+}
+
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button-container button {
+    margin-bottom: 70px;
+    border-width: 2px;
+    border-color: hsla(210, 100%, 56%, 1);
+    background: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.question-count {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+.odd {
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.question-container {
+    padding: 10px;
+}
+
+.space {
+    width: 10px;
+}
+
+.assessment-form-heading {
+    text-align: center;
+    font-size: 40px;
+}

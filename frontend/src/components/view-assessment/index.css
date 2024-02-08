@@ -1,0 +1,55 @@
+.view-assessment-container {
+    text-align: center;
+    display: grid;  
+    align-content: center;
+    justify-content: center;
+    margin-top: 70px;
+    float: right;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 60px;
+    background-color: #f2f2f2;
+    height:60%;
+    width: 50%;
+
+  }
+  .table-header{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  .va-row{
+    margin: 10px;
+    background-color: #D7D3D3;  
+    padding: 15px;
+    border: solid white 5px;
+  }
+
+ .va-row th {
+    position: sticky;
+    top: 0px;
+  }
+
+  /* .va-header{
+    position: sticky;
+  } */
+  .va-index{
+    background-color: white;
+  }
+  .va-question{
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+  }
+  .va-description{
+    width: 20%;
+    /* padding: 10px; */
+    background-color: white;
+  }
+  .va-table{
+    display: block;
+    overflow: auto;
+    width: 100%;
+    border-radius: 15px;
+  }

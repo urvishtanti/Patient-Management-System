@@ -1,0 +1,142 @@
+/* Float four columns side by side */
+.dashboard-chart-columns {
+    /* float: left;
+    padding: 0 10px;
+    padding-left: 2.1rem; */
+}
+
+/* Remove extra left and right margins, due to padding */
+.dashboard-chart-row {
+    /* margin: 0 -5px; */
+    margin-top: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Clear floats after the columns */
+.dashboard-chart-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .dashboard-chart-columns {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* Style the counter cards */
+.dashboard-chart-cards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+#charts-card-header {
+    text-align: left;
+    margin-top: 1rem;
+    padding-top: 0.4rem;
+    margin-left: 3rem;
+}
+
+.chart-toggle-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart-toggle-button {
+    border-radius: 0.5rem;
+    width: 4rem;
+    height: 1.8rem;
+    margin-top: 1.8rem;
+    margin-right: 0.5rem;
+    padding: 0%;
+    border: 0px;
+    cursor: pointer;
+}
+
+.chart-toggle-button:hover {
+    background-color: lightcoral;
+}
+
+#chart-by-month-heading {
+    text-align: center;
+}
+
+.analytics-extra-space {
+    height: 44rem;
+}
+
+.month-selector-form {
+    display: flex;
+    justify-content: right;
+}
+
+.month-selector {
+    display: flex !important;
+    justify-content: right !important;
+    border-radius: 0.3rem !important;
+    border: 0.1rem groove dodgerblue !important;
+    height: 1.8rem !important;
+    padding-left: 0.6rem !important;
+}
+
+#pie-chart-card-header {
+    text-align: left;
+    margin-top: 1rem;
+    padding-top: 0.4rem;
+    display: flex;
+    justify-content: center;
+    font-size: "2rem";
+    margin-bottom: "3rem";
+
+}
+
+.dashboard-chart-row .tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.dashboard-chart-row .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin-top: 0.2rem;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 2;
+}
+
+.dashboard-chart-row .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.dashboard-chart-row .tooltip .tooltiptext {
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.right-piechart-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-input-container {
+    float: right;
+}

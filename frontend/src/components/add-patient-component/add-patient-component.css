@@ -1,0 +1,53 @@
+.add-patient-card {
+    /* align-items: center; */
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin: auto; 
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-bottom: 4%;
+    background-color: #fff;
+}
+
+.name-row {
+    display: flex;
+}
+
+.name-row div:nth-child(1) {
+    margin-right: 10px;
+}
+.name-row div:nth-child(2) {
+    margin-left: 10px;
+}
+
+.edit-button {
+    background-color: white;
+    color: black;
+    border: 2px solid dodgerblue;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 31rem;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+.edit-button:hover {
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.edit-button:active {
+    background-color: dodgerblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

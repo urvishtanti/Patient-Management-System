@@ -1,0 +1,85 @@
+.status-container {
+    overflow-y: auto;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.status-container .extra{
+    height: 3rem;
+}
+.status-heading{
+    text-align: center;
+    size: 40px;
+    padding-bottom: 1rem;
+}
+.RSPBprogressBar{
+    left: 8vw;
+    width: 85%;height: 20px;align-content: center;justify-content: center;
+}
+.indexedStep {
+    color: black;
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    background-color: rgba(211, 211, 211, 0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    font-weight: bold;
+}
+  
+.indexedStep.accomplished {
+    background-color: #198754;
+    color: white;
+}
+
+.indexedStep.failed {
+    background-color: #dc3545;
+    color: white;
+}
+
+.status-jumbotron-container{
+    display: flex;
+    justify-content: center;
+}
+.status-jumbotron { 
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding: 25px; 
+    border-radius: 10px;
+    margin: 60px 0 0px 0;
+    text-align: center;
+    background-color: #edf2f4;
+}
+
+.status-card {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0px 60px 0;
+    width: 15%;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status-card img {
+    height: 200px;
+}
+
+.d-block {
+    display: flex;
+}
+
+.d-none {
+    display: none;
+}
+
+.extra {
+    height: 4rem;
+}

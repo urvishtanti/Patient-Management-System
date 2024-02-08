@@ -1,0 +1,132 @@
+.assign-pat {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-of-doctor {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-align-patient-info {
+    text-align: center;
+}
+
+.list-of-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-of-doctor-patient {
+    top: 0;
+    display: flex;
+    display: flex;
+}
+
+.list-of-doctor-patient .patient-info-container {
+    margin-top: 0px !important;
+}
+
+
+
+.button-list-of-doctor-patient {
+    float: none !important;
+    align-items: center;
+    justify-self: center;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+    padding: 4px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+
+
+.header-for-doctorlist {
+    /* text-align: center; */
+    width: max-content;
+    text-align: center;
+
+
+
+}
+
+.doctor-list-pagination {
+    /* justify-content: space-around; */
+    /* align-self: center; */
+    margin-top: 2rem;
+}
+
+.width-of-table {
+    width: 20%;
+}
+
+.assign-pat th {
+    padding: 1rem;
+}
+
+.pat-to-doc {
+    text-align: center;
+}
+
+.tab-head-doc {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.assign-pat td {
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.list-of-doctor tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+.assign-pat tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.assign-pat tbody tr:hover {
+    background-color: #ddd;
+}
+
+.pagination {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}

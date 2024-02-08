@@ -1,0 +1,123 @@
+.manager-patient-list {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0rem;
+}
+
+.manager-edit-patient-container {
+    width: 80%; 
+    margin-left: 20%;
+}
+.manager-edit-patient-container .header-container{
+    
+        margin-left: auto;
+        margin-right: auto;
+        display: "flex";
+        width: 80%;
+        justify-content: "space-between";
+      
+}
+#myPatientList {
+    border-radius: 0.8rem;
+}
+
+#myManagerSearch {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.8rem;
+}
+
+.manager-patient-table-header {
+    font-size: 40px
+}
+.manager-add-patient-button{
+    margin-top: auto;
+    margin-bottom: auto;
+    float: "right";
+  }
+
+
+.manager-patient-list th {
+    background-color: black;
+    color: white;
+    padding: 1.2rem;
+    border-bottom: 1px solid black;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.manager-patient-list td {
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.manager-patient-list td {
+    padding: 1.2rem;
+}
+
+
+.manager-patient-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.manager-patient-list tr:hover {
+    background-color: #ddd;
+}
+
+.view-file-button {
+    background-color: #f2f2f2;
+    color: black;
+    border: 2px solid dodgerblue;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    width: 11rem;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hi{
+    color: gr;
+}
+
+.view-file-button:hover {
+    background-color: dodgerblue;
+    color: black;
+}
+
+.schedule-pagination {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.schedule-pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.schedule-pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+}
+
+.schedule-pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
